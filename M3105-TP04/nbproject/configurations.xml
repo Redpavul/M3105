@@ -6,6 +6,7 @@
                    projectFiles="true">
       <itemPath>NomIncorrectException.h</itemPath>
       <itemPath>NumeroIncorrectException.h</itemPath>
+      <itemPath>SalaireIncorrectException.h</itemPath>
       <itemPath>Salarie.h</itemPath>
       <itemPath>Salarie_Exception.h</itemPath>
     </logicalFolder>
@@ -18,6 +19,7 @@
                    projectFiles="true">
       <itemPath>NomIncorrectException.cpp</itemPath>
       <itemPath>NumeroIncorrectException.cpp</itemPath>
+      <itemPath>SalaireIncorrectException.cpp</itemPath>
       <itemPath>Salarie.cpp</itemPath>
       <itemPath>Salarie_Exception.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -54,6 +56,10 @@
       <item path="NumeroIncorrectException.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="NumeroIncorrectException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SalaireIncorrectException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SalaireIncorrectException.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Salarie.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -93,6 +99,10 @@
       <item path="NumeroIncorrectException.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="NumeroIncorrectException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SalaireIncorrectException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SalaireIncorrectException.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Salarie.cpp" ex="false" tool="1" flavor2="0">
       </item>
