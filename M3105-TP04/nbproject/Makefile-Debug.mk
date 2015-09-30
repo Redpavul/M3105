@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/NomIncorrectException.o \
+	${OBJECTDIR}/NumeroIncorrectException.o \
 	${OBJECTDIR}/Salarie.o \
 	${OBJECTDIR}/Salarie_Exception.o \
 	${OBJECTDIR}/main.o
@@ -69,6 +70,11 @@ ${OBJECTDIR}/NomIncorrectException.o: NomIncorrectException.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NomIncorrectException.o NomIncorrectException.cpp
+
+${OBJECTDIR}/NumeroIncorrectException.o: NumeroIncorrectException.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NumeroIncorrectException.o NumeroIncorrectException.cpp
 
 ${OBJECTDIR}/Salarie.o: Salarie.cpp 
 	${MKDIR} -p ${OBJECTDIR}
