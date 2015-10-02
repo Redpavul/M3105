@@ -7,13 +7,24 @@
 
 #include <cstdlib>
 
+#include "Salarie.h"
+#include "Salarie_Exception.h"
+#include <iostream>
 using namespace std;
 
 /*
  * 
  */
-int main(int argc, char** argv) {
+int main() {
 
+    
+    try{
+        Salarie s1("Hello","012012");
+    }
+    catch(Salarie_Exception *e){
+        cout<<e->what()<<endl;
+    }
+    
     return 0;
 }
 

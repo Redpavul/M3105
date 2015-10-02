@@ -6,6 +6,9 @@ using namespace std;
 class Salarie {
 public:
     Salarie(string nom, string numSS, float salaire);
+    Salarie();
+    Salarie(string nom);
+    Salarie(string nom, string numSS);
     
     string getNom() const ;
     string getNumeroSS() const ;
@@ -13,7 +16,7 @@ public:
     float getImpots() const;
     
     void setNom(string nom);
-    void setNumeroSS(string nom);
+    void setNumeroSS(string numeross);
     void setSalaireMensuel(float salaireMensuel);
        
 private:
